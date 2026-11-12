@@ -108,13 +108,15 @@ public class exercise2 {
                         continue;
                     }
 
+                    sumToN = 0;
+
                     for(int i = 1; i <= n; i++){
                         sumToN += i;
                     }
                     
                     System.out.printf("\tThe sum from 1 to %d is: %d\n", n, sumToN);
                     System.out.println("\n1-N ===================================================== 1-N");
-                    System.out.print("Would you like to continue subtracting? (5) or go back? (0): ");
+                    System.out.print("Would you like to continue summing to N? (5) or go back? (0): ");
                     option = sc.nextInt();
                     sc.nextLine();
                     break;
